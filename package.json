@@ -10,9 +10,9 @@
   "license": "MIT",
   "devDependencies": {
     "browser-sync": "^2.26.7",
-    "gulp": "^4.0.0",
+    "gulp": "^4.0.2",
     "gulp-folder-index": "0.0.3",
-    "node-sass": "^4.12.0"
+    "node-sass": "^4.13.1"
   },
   "author": "Ray Villalobos",
   "dependencies": {
