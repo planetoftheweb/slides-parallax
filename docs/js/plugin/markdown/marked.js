@@ -462,7 +462,7 @@
       return '<' + n + '>\n' + e + '</' + n + '>\n'
     }),
     (n.prototype.listitem = function(e) {
-      return '<li class="fragment slide">' + e + '</li>\n'
+      return '<li>' + e + '</li>\n'
     }),
     (n.prototype.paragraph = function(e) {
       return '<p>' + e + '</p>\n'
