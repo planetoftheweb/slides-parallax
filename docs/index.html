@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="css/fontawesome.css">
   <link rel="stylesheet" href="css/reveal.css">
   <link rel="stylesheet" href="css/learning.css" id="theme">
-  <link rel="stylesheet" href="css/syntax/github.css">
+  <link rel="stylesheet" href="css/syntax/xcode.css">
 
 <!-- Printing and PDF exports -->
 <script>
@@ -58,8 +58,8 @@
     }
 
     Reveal.initialize({
-	    width: 1296,
-	    height: 858,
+	    width: 1200,
+	    height: 800,
       margin: 0,
       minScale: 0,
       maxScale: 1,
@@ -108,7 +108,7 @@
         item.dataset.trim = true;
       }, this);
 
-      //This adds a fragment class to all list items by default 
+      //This adds a fragment class to all list items by default
       var fragmentNodes = document.querySelectorAll('.slides li, .slides pre, .slides table, .slides embed, .slides iframe');
       fragmentNodes.forEach(function (item) {
         item.classList.add('fragment', 'fade-left');
